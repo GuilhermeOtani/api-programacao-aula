@@ -25,7 +25,7 @@ public class CategoriaService {
     }
 
     public void deletarCategoria(Long id) {
-       categoriaRepository.deleteById(id);
+        categoriaRepository.deleteById(id);
     }
 
     public Categoria buscarCategoriaPorId(Long id) {
